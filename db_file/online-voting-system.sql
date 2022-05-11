@@ -45,9 +45,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `name`, `mobile`, `password`, `address`, `photo`, `status`, `votes`, `role`) VALUES
-(4, 'Shahebaz Khan Shabbir Khan Pathan', 9511846837, 123, 'Andheri East, Near Govt. College, Mumbai', 'boy.png', 1, 0, 1),
-(5, 'Soehl Khan Salim Khan Pathan', 9511846838, 123, 'Andheri East, Near Govt. College, Pune', 'Animal-Heroes-cartoon-icon-19.png', 1, 1, 2),
-(6, 'Shoaib Khan Shabbir Khan Pathan', 9511846839, 123, 'Andheri East, Near Govt. College, Goa', 'plant.png', 1, 2, 2);
+
 
 --
 -- Indexes for dumped tables
