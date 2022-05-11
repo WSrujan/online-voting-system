@@ -45,6 +45,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `name`, `mobile`, `password`, `address`, `photo`, `status`, `votes`, `role`) VALUES
+(1, 'Srujan Pushkar Wadgaonkar', 213431078, 123, 'Modern College of Arts, Science & Commerce', 'SRUJAN (1).jpg', 1, 0, 1),
+(2, 'Srujan Pushkar Wadgaonkar', 213431078, 123, 'Modern College of Arts, Science & Commerce', 'SRUJAN (1).jpg', 1, 1, 2);
 
 
 --
