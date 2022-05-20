@@ -2,7 +2,7 @@
 $q_score = $_POST['quality'];
 $feedback_txt = $_POST['suggestion'];
 
-$conn = mysqli_connect("localhost", "root","", "practice");
+$conn = mysqli_connect("localhost", "root","", "feedback");
 $query ="insert into feedback(quality_score, feedback)values($q_score, '$feedback_txt')";
 $result = mysqli_query($conn, $query);
 if($result)
