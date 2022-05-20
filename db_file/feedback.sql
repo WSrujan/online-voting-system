@@ -38,7 +38,7 @@ CREATE TABLE `feedback` (
 -- Dumping data for table `feedback`
 --
 
-INSERT INTO `feedback` (`id`, `quality_score`, `feedback`, `password`) VALUES
+INSERT INTO `feedback` (`id`, `quality_score`, `feedback`) VALUES
 (0, '2', 'It is very good site!');
 
 
