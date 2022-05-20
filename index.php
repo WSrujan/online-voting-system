@@ -21,7 +21,8 @@
                         <option value="2">Group</option>
                     </select><br><br>                  
                     <button id="loginbtn" type="submit" name="loginbtn">Login</button><br><br>
-                    New user? <a href="routes/register.php">Register here</a>
+                    New user? <a href="routes/register.php">Register here</a><br>
+                    Feedback? <a href="routes/feedback.html">Click here</a>
                 </form>
             </div>
 
