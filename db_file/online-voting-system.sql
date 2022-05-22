@@ -45,8 +45,20 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `name`, `mobile`, `password`, `address`, `photo`, `status`, `votes`, `role`) VALUES
-(1, 'Srujan Pushkar Wadgaonkar', 213431078, 123, 'Modern College of Arts, Science & Commerce', 'SRUJAN (1).jpg', 1, 0, 1),
-(2, 'Political Party', 213431078, 123, 'Modern College of Arts, Science & Commerce', 'OIP.jfif', 1, 1, 2);
+(1, 'Srujan Pushkar Wadgaonkar', 213431078, 123, 'Modern College of Arts, Science & Commerce', 'SRUJAN (1).jpg', 0, 0, 1),
+(2, 'BJP', 0000000001, 123, 'Main Office Address', 'BJP.png', 0, 0, 2),
+(3, 'INC', 0000000002, 123, 'Main Office Address', 'INC.jpg', 0, 0, 2),
+(4, 'NCP', 0000000003, 123, 'Main Office Address', 'NCP.jpg', 0, 0, 2),
+(5, 'CPI', 0000000004, 123, 'Main Office Address', 'CPI.png', 0, 0, 2),
+(6, 'Shiv Sena', 0000000005, 123, 'Main Office Address', 'Shiv Sena.png', 0, 0, 2),
+(7, 'Rohit Pawer', 213431070, 123, 'Total Random Address', 'Random.png', 0, 0, 1),
+(8, 'Virat Kholi', 213431071, 123, 'Total Random Address', 'Random.png', 0, 0, 1),
+(9, 'Yash Kumer', 213431072, 123, 'Total Random Address', 'Random.png', 0, 0, 1),
+(10, 'Jennifer Johnson', 213431073, 123, 'Total Random Address', 'Random.png', 0, 0, 1),
+(11, 'Natalie Robinson', 213431074, 123, 'Total Random Address', 'Random.png', 0, 0, 1),
+(12, 'John Ferguson', 213431075, 123, 'Total Random Address', 'Random.png', 0, 0, 1),
+(13, 'Samuel Patterson', 213431076, 123, 'Total Random Address', 'Random.png', 0, 0, 1),
+(14, 'Jasmine James', 213431077, 123, 'Total Random Address', 'Random.png', 0, 0, 1);
 
 
 --
